@@ -19,29 +19,29 @@ const DAYS = [
       ]},
       { title: "Pectoraux", icon: "💪", exercises: [
         { name: "Marcy — Chest press", badge: "muscu", detail: "Pousser les poignées vers l'avant, dos calé contre le dossier. Charge progressive.", sets: "3 × 12 · 60s repos", muscles: ["pectoraux", "triceps"], img: "/images/chestpress.jpg" },
-        { name: "Marcy — Pec dec / Butterfly", badge: "muscu", detail: "Bras écartés, rapprocher les poignées devant la poitrine. Serrer 1 sec quand les mains se rejoignent.", sets: "3 × 12 · 60s repos", muscles: ["pectoraux"], img: null },
+        { name: "Marcy — Pec dec / Butterfly", badge: "muscu", detail: "Bras écartés, rapprocher les poignées devant la poitrine. Serrer 1 sec quand les mains se rejoignent.", sets: "3 × 12 · 60s repos", muscles: ["pectoraux"], img: "/images/butterfly.jpg" },
       ]},
       { title: "Dos", icon: "💪", exercises: [
         { name: "Marcy — Lat pulldown prise large", badge: "muscu", detail: "Mains écartées sur la barre haute, tirer vers la poitrine. Serrer les omoplates. Dos large = taille en V.", sets: "3 × 12 · 60s repos", muscles: ["grand dorsal", "dos"], img: "/images/latepulldown.jpg" },
-        { name: "Marcy — Seated row (poulie basse)", badge: "muscu", detail: "Assis au sol, tirer la poignée basse vers le ventre. Dos droit, coudes au corps.", sets: "3 × 12 · 60s repos", muscles: ["dos", "biceps"], img: null },
+        { name: "Marcy — Seated row (poulie basse)", badge: "muscu", detail: "Assis au sol, tirer la poignée basse vers le ventre. Dos droit, coudes au corps.", sets: "3 × 12 · 60s repos", muscles: ["dos", "biceps"], img: "/images/polie.jpg" },
       ]},
       { title: "Épaules", icon: "💪", exercises: [
-        { name: "Haltères 5 kg — Développé épaules", badge: "muscu", detail: "Pousser les haltères au-dessus de la tête. Épaules larges = silhouette en V.", sets: "3 × 12 · 60s repos", muscles: ["épaules"], img: null },
+        { name: "Haltères 5 kg — Développé épaules", badge: "muscu", detail: "Pousser les haltères au-dessus de la tête. Épaules larges = silhouette en V.", sets: "3 × 12 · 60s repos", muscles: ["épaules"], img: "images/dev_op.png" },
         { name: "Haltères 2,5 kg — Élévations latérales", badge: "muscu", detail: "Lever les haltères sur les côtés jusqu'à hauteur d'épaule. Mouvement lent.", sets: "3 × 15 · 45s repos", muscles: ["deltoïdes latéraux"], img: "/images/elevation-lateral.jpg" },
       ]},
       { title: "Jambes", icon: "💪", exercises: [
         { name: "Marcy — Leg extension", badge: "muscu", detail: "Quadriceps. Assis, tendre les jambes sous le coussin. Ne pas verrouiller en haut.", sets: "3 × 12 · 60s repos", muscles: ["quadriceps"], img: "/images/leg-extension-machine.gif" },
-        { name: "Marcy — Leg curl", badge: "muscu", detail: "Ischio-jambiers (arrière de la cuisse). Ramener les chevilles vers soi.", sets: "3 × 12 · 60s repos", muscles: ["ischio-jambiers"], img: null },
+        { name: "Marcy — Leg curl", badge: "muscu", detail: "Ischio-jambiers (arrière de la cuisse). Ramener les chevilles vers soi.", sets: "3 × 12 · 60s repos", muscles: ["ischio-jambiers"], img: "/images/leg_curl.png" },
         { name: "Squats goblet — Haltère 5 kg", badge: "muscu", detail: "Tenir l'haltère contre la poitrine. Descendre en squat, dos droit, serrer les fessiers en remontant.", sets: "3 × 15 · 60s repos", muscles: ["quadriceps", "fessiers"], img: "/images/squat.jpg" },
       ]},
       { title: "Bras", icon: "💪", exercises: [
         { name: "Haltères 5 kg — Curl biceps", badge: "muscu", detail: "Debout, plier les coudes pour monter les haltères. Ne pas balancer le corps.", sets: "3 × 12 · 45s repos", muscles: ["biceps"], img: "/images/curlbiceps.png" },
-        { name: "Marcy — Triceps pushdown (poulie haute)", badge: "muscu", detail: "Debout, pousser la barre haute vers le bas. Coudes collés au corps.", sets: "3 × 12 · 45s repos", muscles: ["triceps"], img: null },
+        { name: "Marcy — Triceps pushdown (poulie haute)", badge: "muscu", detail: "Debout, pousser la barre haute vers le bas. Coudes collés au corps.", sets: "3 × 12 · 45s repos", muscles: ["triceps"], img: "/images/triceps.png" },
       ]},
       { title: "Abdos / Taille en V", icon: "🔥", exercises: [
-        { name: "Marcy — Ab crunch (poulie haute)", badge: "core", detail: "À genoux, cruncher vers le bas avec la résistance de la poulie haute.", sets: "3 × 15 · 45s repos", muscles: ["abdos"], img: null },
-        { name: "Crunchs obliques (coude-genou)", badge: "core", detail: "Allongé, coude droit vers genou gauche, alterner. Creuse la taille.", sets: "3 × 15/côté", muscles: ["obliques"], img: null },
-        { name: "Stomach vacuum", badge: "core", detail: "Debout, expirer tout l'air, rentrer le ventre au max, tenir 10-15s. Rétrécit la taille.", sets: "5 × 15s tenue", muscles: ["transverse", "taille en V"], img: null },
+        { name: "Marcy — Ab crunch (poulie haute)", badge: "core", detail: "À genoux, cruncher vers le bas avec la résistance de la poulie haute.", sets: "3 × 15 · 45s repos", muscles: ["abdos"], img: "/images/crunch.png" },
+        { name: "Crunchs obliques (coude-genou)", badge: "core", detail: "Allongé, coude droit vers genou gauche, alterner. Creuse la taille.", sets: "3 × 15/côté", muscles: ["obliques"], img: "/images/C_obliques.png" },
+        { name: "Stomach vacuum", badge: "core", detail: "Debout, expirer tout l'air, rentrer le ventre au max, tenir 10-15s. Rétrécit la taille.", sets: "5 × 15s tenue", muscles: ["transverse", "taille en V"], img: "/images/vacuum.png" },
       ]},
     ],
   },
@@ -52,7 +52,7 @@ const DAYS = [
     duration: "Repos",
     sections: [
       { title: "Vacuum quotidien", icon: "🧘", exercises: [
-        { name: "Stomach vacuum", badge: "core", detail: "3 × 5 vacuum dans la journée. Partout : taxi, maison, debout, assis. Expirer à fond, rentrer le ventre, tenir 10-15s.", sets: "3 × 5 reps · 15s tenue", muscles: ["transverse", "taille en V"], img: null },
+        { name: "Stomach vacuum", badge: "core", detail: "3 × 5 vacuum dans la journée. Partout : taxi, maison, debout, assis. Expirer à fond, rentrer le ventre, tenir 10-15s.", sets: "3 × 5 reps · 15s tenue", muscles: ["transverse", "taille en V"], img: "/images/vacuum.png"  },
       ]},
     ],
   },
@@ -67,31 +67,31 @@ const DAYS = [
       ]},
       { title: "Dos (priorité)", icon: "💪", exercises: [
         { name: "Marcy — Lat pulldown prise large", badge: "muscu", detail: "Charge lourde aujourd'hui. Le roi du V. Mains très écartées, tirer vers la poitrine.", sets: "4 × 10 · charge lourde · 60s repos", muscles: ["grand dorsal"], img: "/images/latepulldown.jpg" },
-        { name: "Marcy — Seated row (poulie basse)", badge: "muscu", detail: "Tirer la poignée vers le ventre. Serrer les omoplates.", sets: "3 × 12 · 60s repos", muscles: ["dos", "rhomboïdes"], img: null },
-        { name: "Marcy — Upright row (poulie basse)", badge: "muscu", detail: "Debout, tirer la poignée vers le menton. Coudes vers le haut et l'extérieur. Trapèzes + épaules.", sets: "3 × 12 · 60s repos", muscles: ["trapèzes", "épaules"], img: null },
+        { name: "Marcy — Seated row (poulie basse)", badge: "muscu", detail: "Tirer la poignée vers le ventre. Serrer les omoplates.", sets: "3 × 12 · 60s repos", muscles: ["dos", "rhomboïdes"], img: "/images/polie.jpg" },
+        { name: "Marcy — Upright row (poulie basse)", badge: "muscu", detail: "Debout, tirer la poignée vers le menton. Coudes vers le haut et l'extérieur. Trapèzes + épaules.", sets: "3 × 12 · 60s repos", muscles: ["trapèzes", "épaules"], img: "/images/trapeze.png" },
       ]},
       { title: "Pectoraux", icon: "💪", exercises: [
         { name: "Marcy — Chest press", badge: "muscu", detail: "Descente lente 3 sec, remontée explosive. Tempo lent = plus de tension.", sets: "3 × 12 · tempo lent · 60s repos", muscles: ["pectoraux", "triceps"], img: "/images/chestpress.jpg" },
       ]},
       { title: "Épaules", icon: "💪", exercises: [
-        { name: "Haltères 5 kg — Développé épaules", badge: "muscu", detail: "Pousser au-dessus de la tête.", sets: "3 × 12 · 60s repos", muscles: ["épaules"], img: null },
-        { name: "Marcy — Upright row (poulie basse)", badge: "muscu", detail: "Poignée basse vers le menton. Complète les épaules.", sets: "3 × 12 · 60s repos", muscles: ["épaules", "trapèzes"], img: null },
+        { name: "Haltères 5 kg — Développé épaules", badge: "muscu", detail: "Pousser au-dessus de la tête.", sets: "3 × 12 · 60s repos", muscles: ["épaules"], img: "/images/dev_op.png" },
+        { name: "Marcy — Upright row (poulie basse)", badge: "muscu", detail: "Poignée basse vers le menton. Complète les épaules.", sets: "3 × 12 · 60s repos", muscles: ["épaules", "trapèzes"], img: "/images/trapeze.png" },
       ]},
       { title: "Jambes", icon: "💪", exercises: [
         { name: "Marcy — Leg extension", badge: "muscu", detail: "Quadriceps. 3×12.", sets: "3 × 12 · 60s repos", muscles: ["quadriceps"], img: "/images/leg-extension-machine.gif" },
-        { name: "Marcy — Leg curl", badge: "muscu", detail: "Ischio-jambiers. 3×12.", sets: "3 × 12 · 60s repos", muscles: ["ischio-jambiers"], img: null },
-        { name: "Fentes avant — Haltères 2,5 kg", badge: "muscu", detail: "Grand pas en avant, descendre le genou arrière. 2,5 kg par main.", sets: "3 × 10/jambe · 60s repos", muscles: ["fessiers", "ischio", "quadriceps"], img: null },
+        { name: "Marcy — Leg curl", badge: "muscu", detail: "Ischio-jambiers. 3×12.", sets: "3 × 12 · 60s repos", muscles: ["ischio-jambiers"], img: "/images/leg_curl.png" },
+        { name: "Fentes avant — Haltères 2,5 kg", badge: "muscu", detail: "Grand pas en avant, descendre le genou arrière. 2,5 kg par main.", sets: "3 × 10/jambe · 60s repos", muscles: ["fessiers", "ischio", "quadriceps"], img: "/images/fentes.jpg" },
       ]},
       { title: "Bras", icon: "💪", exercises: [
-        { name: "Marcy — Preacher curl (pad)", badge: "muscu", detail: "Bras calé sur le pad, curl avec la poulie basse. Isole le biceps à 100%.", sets: "3 × 12 · 45s repos", muscles: ["biceps"], img: null },
+        { name: "Marcy — Preacher curl (pad)", badge: "muscu", detail: "Bras calé sur le pad, curl avec la poulie basse. Isole le biceps à 100%.", sets: "3 × 12 · 45s repos", muscles: ["biceps"], img: "/images/preacher.png" },
         { name: "Marcy — Curl poulie basse", badge: "muscu", detail: "Debout, curl avec la poulie basse. Coudes fixes.", sets: "3 × 12 · 45s repos", muscles: ["biceps"], img: "/images/cpoulie.jpg" },
-        { name: "Marcy — Triceps pushdown (poulie haute)", badge: "muscu", detail: "Pousser la barre vers le bas. Coudes collés au corps.", sets: "3 × 12 · 45s repos", muscles: ["triceps"], img: null },
+        { name: "Marcy — Triceps pushdown (poulie haute)", badge: "muscu", detail: "Pousser la barre vers le bas. Coudes collés au corps.", sets: "3 × 12 · 45s repos", muscles: ["triceps"], img: "images/triceps.png" },
       ]},
       { title: "Abdos / Taille en V", icon: "🔥", exercises: [
-        { name: "Marcy — Ab crunch (poulie haute)", badge: "core", detail: "À genoux, crunch avec résistance.", sets: "3 × 15 · 45s repos", muscles: ["abdos"], img: null },
-        { name: "Russian twist — Haltère 2,5 kg", badge: "core", detail: "Assis, pieds décollés, tourner le buste gauche-droite avec l'haltère. Le roi des obliques.", sets: "3 × 20 (10/côté)", muscles: ["obliques"], img: null },
+        { name: "Marcy — Ab crunch (poulie haute)", badge: "core", detail: "À genoux, crunch avec résistance.", sets: "3 × 15 · 45s repos", muscles: ["abdos"], img: "/images/crunch.png" },
+        { name: "Russian twist — Haltère 2,5 kg", badge: "core", detail: "Assis, pieds décollés, tourner le buste gauche-droite avec l'haltère. Le roi des obliques.", sets: "3 × 20 (10/côté)", muscles: ["obliques"], img: "/images/russian.png." },
         { name: "Planche face + latérale", badge: "core", detail: "Planche face 40s → latérale droite 25s → latérale gauche 25s.", sets: "3 tours · 90s/tour", muscles: ["abdos", "obliques"], img: "/images/Plancheslat.png" },
-        { name: "Stomach vacuum", badge: "core", detail: "5 × 15s. Finir chaque séance par ça.", sets: "5 × 15s tenue", muscles: ["transverse", "taille en V"], img: null },
+        { name: "Stomach vacuum", badge: "core", detail: "5 × 15s. Finir chaque séance par ça.", sets: "5 × 15s tenue", muscles: ["transverse", "taille en V"], img: "/images/vacuum.png" },
       ]},
     ],
   },
@@ -102,7 +102,7 @@ const DAYS = [
     duration: "Repos",
     sections: [
       { title: "Vacuum quotidien", icon: "🧘", exercises: [
-        { name: "Stomach vacuum", badge: "core", detail: "3 × 5 vacuum. Partout, tout le temps.", sets: "3 × 5 reps · 15s tenue", muscles: ["transverse", "taille en V"], img: null },
+        { name: "Stomach vacuum", badge: "core", detail: "3 × 5 vacuum. Partout, tout le temps.", sets: "3 × 5 reps · 15s tenue", muscles: ["transverse", "taille en V"], img: "/images/vacuum.png" },
       ]},
     ],
   },
@@ -116,19 +116,19 @@ const DAYS = [
         { name: "Marche endurance", badge: "cardio", detail: "40 min à 5–5,5 km/h · inclinaison 3%. Brûle-graisse.", sets: "⏱ 40 min · 5,5 km/h · incl. 3%", muscles: ["cardio"], img: null },
       ]},
       { title: "SUPERSET Pecs + Dos", icon: "💪", exercises: [
-        { name: "Marcy — Chest press + Lat pulldown", badge: "muscu", detail: "SUPERSET : chest press 10 reps → enchaîner direct lat pulldown 10 reps, sans pause. 90s repos après le duo. Le cœur monte = plus de calories brûlées.", sets: "4 × 10 chaque · superset · 90s", muscles: ["pectoraux", "dos"], img: null },
-        { name: "Marcy — Butterfly + Seated row", badge: "muscu", detail: "SUPERSET : butterfly 12 reps → seated row poulie basse 12 reps. Pecs intérieur + dos épaisseur.", sets: "3 × 12 chaque · superset · 90s", muscles: ["pectoraux", "dos"], img: null },
+        { name: "Marcy — Chest press + Lat pulldown", badge: "muscu", detail: "SUPERSET : chest press 10 reps → enchaîner direct lat pulldown 10 reps, sans pause. 90s repos après le duo. Le cœur monte = plus de calories brûlées.", sets: "4 × 10 chaque · superset · 90s", muscles: ["pectoraux", "dos"], img: "/images/chest+latte.png" },
+        { name: "Marcy — Butterfly + Seated row", badge: "muscu", detail: "SUPERSET : butterfly 12 reps → seated row poulie basse 12 reps. Pecs intérieur + dos épaisseur.", sets: "3 × 12 chaque · superset · 90s", muscles: ["pectoraux", "dos"], img: "/images/but+row.png" },
       ]},
       { title: "SUPERSET Épaules + Bras", icon: "💪", exercises: [
-        { name: "Développé épaules 5 kg + Curl biceps 5 kg", badge: "muscu", detail: "SUPERSET : développé épaules 10 reps → curl biceps 10 reps. Sans pause entre les 2.", sets: "3 × 10 chaque · superset · 60s", muscles: ["épaules", "biceps"], img: null },
-        { name: "Élévations latérales 2,5 kg + Triceps pushdown", badge: "muscu", detail: "SUPERSET : élévations latérales 15 reps → triceps pushdown poulie haute 12 reps.", sets: "3 × 15/12 · superset · 60s", muscles: ["épaules", "triceps"], img: null },
+        { name: "Développé épaules 5 kg + Curl biceps 5 kg", badge: "muscu", detail: "SUPERSET : développé épaules 10 reps → curl biceps 10 reps. Sans pause entre les 2.", sets: "3 × 10 chaque · superset · 60s", muscles: ["épaules", "biceps"], img: "/images/DEV_CURL.png" },
+        { name: "Élévations latérales 2,5 kg + Triceps pushdown", badge: "muscu", detail: "SUPERSET : élévations latérales 15 reps → triceps pushdown poulie haute 12 reps.", sets: "3 × 15/12 · superset · 60s", muscles: ["épaules", "triceps"], img: "/images/epo_tri.png" },
       ]},
       { title: "SUPERSET Jambes", icon: "💪", exercises: [
         { name: "Marcy — Leg extension + Leg curl", badge: "muscu", detail: "SUPERSET : extension 12 reps → curl 12 reps. Avant + arrière de la cuisse sans pause.", sets: "3 × 12 chaque · superset · 90s", muscles: ["quadriceps", "ischio"], img: "/images/leg-extension-machine.gif" },
         { name: "Squats goblet 5 kg + Step montées", badge: "muscu", detail: "SUPERSET : squats goblet 15 reps → step montées 15 reps/jambe. Jambes + cardio.", sets: "3 × 15 chaque · superset · 90s", muscles: ["quadriceps", "fessiers", "cardio"], img: "/images/squat.jpg" },
       ]},
       { title: "Abdos / Taille en V", icon: "🔥", exercises: [
-        { name: "Circuit abdos enchaîné", badge: "core", detail: "Ab crunch poulie haute ×15 → Crunchs obliques ×15/côté → Russian twist 2,5 kg ×20 → Planche 40s → Vacuum ×5. Tout enchaîné, 1 min repos entre tours.", sets: "3 tours · 1 min repos", muscles: ["abdos", "obliques", "transverse"], img: null },
+        { name: "Circuit abdos enchaîné", badge: "core", detail: "Ab crunch poulie haute ×15 → Crunchs obliques ×15/côté → Russian twist 2,5 kg ×20 → Planche 40s → Vacuum ×5. Tout enchaîné, 1 min repos entre tours.", sets: "3 tours · 1 min repos", muscles: ["abdos", "obliques", "transverse"], img: "/images/final.png" },
       ]},
     ],
   },
@@ -143,25 +143,25 @@ const DAYS = [
       ]},
       { title: "Pectoraux — Charge lourde", icon: "💪", exercises: [
         { name: "Marcy — Chest press", badge: "muscu", detail: "Charge max tolérable. Pousser fort. C'est le jour des records.", sets: "4 × 8 · charge MAX · 90s repos", muscles: ["pectoraux", "triceps"], img: "/images/chestpress.jpg" },
-        { name: "Marcy — Pec dec / Butterfly", badge: "muscu", detail: "Après le chest press lourd, butterfly en contrôlé pour finir les pecs.", sets: "3 × 12 · 60s repos", muscles: ["pectoraux"], img: null },
+        { name: "Marcy — Pec dec / Butterfly", badge: "muscu", detail: "Après le chest press lourd, butterfly en contrôlé pour finir les pecs.", sets: "3 × 12 · 60s repos", muscles: ["pectoraux"], img: "/images/butterfly.jpg" },
       ]},
       { title: "Dos — Charge lourde", icon: "💪", exercises: [
         { name: "Marcy — Lat pulldown prise large", badge: "muscu", detail: "Charge max tolérable. Le V-shape se construit ici.", sets: "4 × 8 · charge MAX · 90s repos", muscles: ["grand dorsal"], img: "/images/latepulldown.jpg" },
-        { name: "Marcy — Seated row (poulie basse)", badge: "muscu", detail: "Charge lourde aussi. Tirer fort vers le ventre.", sets: "3 × 10 · 60s repos", muscles: ["dos", "biceps"], img: null },
+        { name: "Marcy — Seated row (poulie basse)", badge: "muscu", detail: "Charge lourde aussi. Tirer fort vers le ventre.", sets: "3 × 10 · 60s repos", muscles: ["dos", "biceps"], img: "/images/polie.jpg" },
       ]},
       { title: "Épaules — Charge lourde", icon: "💪", exercises: [
-        { name: "Haltères 5 kg — Développé épaules", badge: "muscu", detail: "4×10. Pousser fort.", sets: "4 × 10 · 60s repos", muscles: ["épaules"], img: null },
+        { name: "Haltères 5 kg — Développé épaules", badge: "muscu", detail: "4×10. Pousser fort.", sets: "4 × 10 · 60s repos", muscles: ["épaules"], img: "/images/dev_op.png" },
         { name: "Haltères 2,5 kg — Élévations latérales", badge: "muscu", detail: "3×15. Finition épaules.", sets: "3 × 15 · 45s repos", muscles: ["deltoïdes"], img: "/images/elevation-lateral.jpg" },
       ]},
       { title: "Jambes — Complet", icon: "💪", exercises: [
-        { name: "Marcy — Leg extension + Leg curl", badge: "muscu", detail: "SUPERSET : extension → curl sans pause.", sets: "4 × 12 chaque · superset · 90s", muscles: ["quadriceps", "ischio"], img: "/images/leg-extension-machine.gif" },
-        { name: "Squats goblet 5 kg + Fentes 2,5 kg", badge: "muscu", detail: "SUPERSET : squats 15 reps → fentes 10/jambe.", sets: "3 × 15/10 · superset · 90s", muscles: ["quadriceps", "fessiers", "ischio"], img: "/images/squat.jpg" },
+        { name: "Marcy — Leg extension + Leg curl", badge: "muscu", detail: "SUPERSET : extension → curl sans pause.", sets: "4 × 12 chaque · superset · 90s", muscles: ["quadriceps", "ischio"], img: "/images/leg.png" },
+        { name: "Squats goblet 5 kg + Fentes 2,5 kg", badge: "muscu", detail: "SUPERSET : squats 15 reps → fentes 10/jambe.", sets: "3 × 15/10 · superset · 90s", muscles: ["quadriceps", "fessiers", "ischio"], img: "/images/SF.png" },
       ]},
       { title: "Bras — Circuit", icon: "💪", exercises: [
-        { name: "Circuit bras 3 exos", badge: "muscu", detail: "Preacher curl pad ×12 → Curl poulie basse ×12 → Triceps pushdown ×12. Enchaîner les 3 sans pause. 60s repos entre tours.", sets: "3 tours · 3 exos enchaînés · 60s", muscles: ["biceps", "triceps"], img: null },
+        { name: "Circuit bras 3 exos", badge: "muscu", detail: "Preacher curl pad ×12 → Curl poulie basse ×12 → Triceps pushdown ×12. Enchaîner les 3 sans pause. 60s repos entre tours.", sets: "3 tours · 3 exos enchaînés · 60s", muscles: ["biceps", "triceps"], img: "/images/bras.png" },
       ]},
       { title: "Abdos — Finisher de la semaine", icon: "🔥", exercises: [
-        { name: "Circuit V-TAPER final", badge: "core", detail: "Ab crunch poulie haute ×15 → Russian twist 2,5 kg ×20 → Crunchs obliques ×15/côté → Planche face 45s → Planche latérale 30s/côté → Vacuum ×5. Le finisher de la semaine. Tout donner.", sets: "3 tours · 1 min repos entre tours", muscles: ["abdos", "obliques", "transverse", "taille en V"], img: null },
+        { name: "Circuit V-TAPER final", badge: "core", detail: "Ab crunch poulie haute ×15 → Russian twist 2,5 kg ×20 → Crunchs obliques ×15/côté → Planche face 45s → Planche latérale 30s/côté → Vacuum ×5. Le finisher de la semaine. Tout donner.", sets: "3 tours · 1 min repos entre tours", muscles: ["abdos", "obliques", "transverse", "taille en V"], img: "/images/final.png" },
       ]},
     ],
   },
