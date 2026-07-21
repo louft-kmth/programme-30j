@@ -51,7 +51,7 @@ export default function Main() {
       </div>
 
       {prog === "v1" && <App />}
-      {prog === "v2" && <AppV2 />}
+      {prog === "v2" && <Appv2 />}
       {prog === "v3" && <AppV3 />}
     </div>
   );
