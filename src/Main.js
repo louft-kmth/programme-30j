@@ -1,6 +1,6 @@
 import { useState } from "react";
 import App from "./App";
-import AppV2 from "./AppV2";
+import Appv2 from "./Appv2";
 import AppV3 from "./AppV3";
 
 export default function Main() {
