@@ -23,7 +23,7 @@ const DAYS = [
       ]},
       { title: "Dos", icon: "💪", exercises: [
         { name: "Marcy — Lat pulldown prise large", badge: "muscu", detail: "Mains écartées sur la barre haute, tirer vers la poitrine. Serrer les omoplates. Dos large = taille en V.", sets: "3 × 12 · 60s repos", muscles: ["grand dorsal", "dos"], img: "/images/latepulldown.jpg" },
-        { name: "Marcy — Seated row (poulie basse)", badge: "muscu", detail: "Assis au sol, tirer la poignée basse vers le ventre. Dos droit, coudes au corps.", sets: "3 × 12 · 60s repos", muscles: ["dos", "biceps"], img: "/images/polie.jpg" },
+        { name: "Marcy — Seated row (poulie basse)", badge: "muscu", detail: "Assis au sol, tirer la poignée basse vers le ventre. Dos droit, coudes au corps.", sets: "3 × 12 · 60s repos", muscles: ["dos", "biceps"], img: "/images/polie.gif" },
       ]},
       { title: "Épaules", icon: "💪", exercises: [
         { name: "Haltères 5 kg — Développé épaules", badge: "muscu", detail: "Pousser les haltères au-dessus de la tête. Épaules larges = silhouette en V.", sets: "3 × 12 · 60s repos", muscles: ["épaules"], img: "images/dev_op.png" },
@@ -67,7 +67,7 @@ const DAYS = [
       ]},
       { title: "Dos (priorité)", icon: "💪", exercises: [
         { name: "Marcy — Lat pulldown prise large", badge: "muscu", detail: "Charge lourde aujourd'hui. Le roi du V. Mains très écartées, tirer vers la poitrine.", sets: "4 × 10 · charge lourde · 60s repos", muscles: ["grand dorsal"], img: "/images/latepulldown.jpg" },
-        { name: "Marcy — Seated row (poulie basse)", badge: "muscu", detail: "Tirer la poignée vers le ventre. Serrer les omoplates.", sets: "3 × 12 · 60s repos", muscles: ["dos", "rhomboïdes"], img: "/images/polie.jpg" },
+        { name: "Marcy — Seated row (poulie basse)", badge: "muscu", detail: "Tirer la poignée vers le ventre. Serrer les omoplates.", sets: "3 × 12 · 60s repos", muscles: ["dos", "rhomboïdes"], img: "/images/polie.gif" },
         { name: "Marcy — Upright row (poulie basse)", badge: "muscu", detail: "Debout, tirer la poignée vers le menton. Coudes vers le haut et l'extérieur. Trapèzes + épaules.", sets: "3 × 12 · 60s repos", muscles: ["trapèzes", "épaules"], img: "/images/trapeze.png" },
       ]},
       { title: "Pectoraux", icon: "💪", exercises: [
@@ -147,7 +147,7 @@ const DAYS = [
       ]},
       { title: "Dos — Charge lourde", icon: "💪", exercises: [
         { name: "Marcy — Lat pulldown prise large", badge: "muscu", detail: "Charge max tolérable. Le V-shape se construit ici.", sets: "4 × 8 · charge MAX · 90s repos", muscles: ["grand dorsal"], img: "/images/latepulldown.jpg" },
-        { name: "Marcy — Seated row (poulie basse)", badge: "muscu", detail: "Charge lourde aussi. Tirer fort vers le ventre.", sets: "3 × 10 · 60s repos", muscles: ["dos", "biceps"], img: "/images/polie.jpg" },
+        { name: "Marcy — Seated row (poulie basse)", badge: "muscu", detail: "Charge lourde aussi. Tirer fort vers le ventre.", sets: "3 × 10 · 60s repos", muscles: ["dos", "biceps"], img: "/images/polie.gif" },
       ]},
       { title: "Épaules — Charge lourde", icon: "💪", exercises: [
         { name: "Haltères 5 kg — Développé épaules", badge: "muscu", detail: "4×10. Pousser fort.", sets: "4 × 10 · 60s repos", muscles: ["épaules"], img: "/images/dev_op.png" },
