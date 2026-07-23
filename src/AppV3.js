@@ -124,8 +124,8 @@ const DAYS = [
         { name: "Élévations latérales 2,5 kg + Triceps pushdown", badge: "muscu", detail: "SUPERSET : élévations latérales 15 reps → triceps pushdown poulie haute 12 reps.", sets: "3 × 15/12 · superset · 60s", muscles: ["épaules", "triceps"], img: "/images/ET.png" },
       ]},
       { title: "SUPERSET Jambes", icon: "💪", exercises: [
-        { name: "Marcy — Leg extension + Leg curl", badge: "muscu", detail: "SUPERSET : extension 12 reps → curl 12 reps. Avant + arrière de la cuisse sans pause.", sets: "3 × 12 chaque · superset · 90s", muscles: ["quadriceps", "ischio"], img: "/images/leg-extension-machine.gif" },
-        { name: "Squats goblet 5 kg + Step montées", badge: "muscu", detail: "SUPERSET : squats goblet 15 reps → step montées 15 reps/jambe. Jambes + cardio.", sets: "3 × 15 chaque · superset · 90s", muscles: ["quadriceps", "fessiers", "cardio"], img: "/images/squat.jpg" },
+        { name: "Marcy — Leg extension + Leg curl", badge: "muscu", detail: "SUPERSET : extension 12 reps → curl 12 reps. Avant + arrière de la cuisse sans pause.", sets: "3 × 12 chaque · superset · 90s", muscles: ["quadriceps", "ischio"], img: "/images/LL.png" },
+        { name: "Squats goblet 5 kg + Step montées", badge: "muscu", detail: "SUPERSET : squats goblet 15 reps → step montées 15 reps/jambe. Jambes + cardio.", sets: "3 × 15 chaque · superset · 90s", muscles: ["quadriceps", "fessiers", "cardio"], img: "/images/SM.png" },
       ]},
       { title: "Abdos / Taille en V", icon: "🔥", exercises: [
         { name: "Circuit abdos enchaîné", badge: "core", detail: "Ab crunch poulie haute ×15 → Crunchs obliques ×15/côté → Russian twist 2,5 kg ×20 → Planche 40s → Vacuum ×5. Tout enchaîné, 1 min repos entre tours.", sets: "3 tours · 1 min repos", muscles: ["abdos", "obliques", "transverse"], img: "/images/final.png" },
