@@ -154,8 +154,8 @@ const DAYS = [
         { name: "Haltères 2,5 kg — Élévations latérales", badge: "muscu", detail: "3×15. Finition épaules.", sets: "3 × 15 · 45s repos", muscles: ["deltoïdes"], img: "/images/elevation-lateral.jpg" },
       ]},
       { title: "Jambes — Complet", icon: "💪", exercises: [
-        { name: "Marcy — Leg extension + Leg curl", badge: "muscu", detail: "SUPERSET : extension → curl sans pause.", sets: "4 × 12 chaque · superset · 90s", muscles: ["quadriceps", "ischio"], img: "/images/leg.png" },
-        { name: "Squats goblet 5 kg + Fentes 2,5 kg", badge: "muscu", detail: "SUPERSET : squats 15 reps → fentes 10/jambe.", sets: "3 × 15/10 · superset · 90s", muscles: ["quadriceps", "fessiers", "ischio"], img: "/images/SF.png" },
+        { name: "Marcy — Leg extension + Leg curl", badge: "muscu", detail: "SUPERSET : extension → curl sans pause.", sets: "4 × 12 chaque · superset · 90s", muscles: ["quadriceps", "ischio"], img: "/images/LL.png" },
+        { name: "Squats goblet 5 kg + Fentes 2,5 kg", badge: "muscu", detail: "SUPERSET : squats 15 reps → fentes 10/jambe.", sets: "3 × 15/10 · superset · 90s", muscles: ["quadriceps", "fessiers", "ischio"], img: "/images/SM.png" },
       ]},
       { title: "Bras — Circuit", icon: "💪", exercises: [
         { name: "Circuit bras 3 exos", badge: "muscu", detail: "Preacher curl pad ×12 → Curl poulie basse ×12 → Triceps pushdown ×12. Enchaîner les 3 sans pause. 60s repos entre tours.", sets: "3 tours · 3 exos enchaînés · 60s", muscles: ["biceps", "triceps"], img: "/images/bras.png" },
